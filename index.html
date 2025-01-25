@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH 7243 Lab Homepage - Lai Jiang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Reduced the minimum width */
+            gap: 1rem;
+            padding: 2rem;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .lab-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 2rem 1rem;
+            transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+        }
+        .lab-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .lab-card:hover a {
+            color: #4CAF50; /* Change text color to green on hover */
+        }
+        .lab-card a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MATH 7243 Lab Homepage - Lai Jiang</h1>
+    </header>
+
+    <main>
+        <div class="lab-card">
+            <a href="lab1.html">Lab 1</a>
+        </div>
+        <div class="lab-card">
+            <a href="lab2.html">Lab 2</a>
+        </div>
+        <div class="lab-card">
+            <a href="lab3.html">Lab 3</a>
+        </div>
+        <div class="lab-card">
+            <a href="lab4.html">Lab 4</a>
+        </div>
+        <div class="lab-card">
+            <a href="lab5.html">Lab 5</a>
+        </div>
+    </main>
+</body>
+</html>
